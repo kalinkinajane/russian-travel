@@ -1,0 +1,12 @@
+.header__lang {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    margin-top: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    .header__lang {
+        margin-top: 13px;
+    }
+}
