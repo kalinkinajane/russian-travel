@@ -11,24 +11,28 @@
 	<title>Путешеству по России</title>
 </head>
 
-<body>
+<body class="background-page">
 	<div class="page">
+		<!-- Шапка сайта-->
 		<header class="header">
 			<img class="header__logo" src="./images/header-logo.svg" alt="Россия">
 			<nav class="lang-navigation">
 				<ul class="header__lang">
-					<li><a href="#" class="header__lang-link link-activ">Ru</a></li>
+					<li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
 					<li><a href="#" class="header__lang-link">En</a></li>
 				</ul>
 			</nav>
 		</header>
+		<!-- Основная часть сайта-->
 		<main class="content">
+			<!-- Начало блока lead-->
 			<section class="lead">
 				<h1 class="lead__title">Путешествия по России</h1>
 				<p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-				<img class="lead__image" src="./images/lead-polka.svg" alt="Вагон поезда">
+				<img class="lead__image" src="./images/lead-polka.jpg" alt="Вагон поезда">
 				<p class="lead__caption">ваша полка — верхняя</p>
 			</section>
+			<!-- Начало блока intro-->
 			<section class="intro">
 				<h2 class="intro__title">Чего мы там не видели?</h2>
 				<p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -46,6 +50,7 @@
 					<li><span class="intro__list-bold">Аэропортов</span> 241</li>
 				</ul>
 			</section>
+			<!-- начало блока photo-grid-->
 			<section class="photo-grid">
 				<img class="photo-grid__item" src="./images/train.jpg" alt="окно поезда">
 				<img class="photo-grid__item" src="./images/atharva-tulsi.jpg" alt="облокаа горы">
@@ -60,13 +65,14 @@
 				<img class="photo-grid__item" src="./images/baikal-2.jpg" alt="Байкал">
 				<img class="photo-grid__item" src="./images/ergaki.jpg" alt="Ергаки">
 			</section>
+			<!-- начало блока places-->
 			<section class="places">
 				<div class="place">
 					<div class="place__conteiner">
 						<h2 class="place__title">Куршская коса&emsp;</h2>
 						<div class="place__website">
-							<p class="place__url-heading">URL</p>
-							<a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+							<p class="place__url-heading">url</p>
+							<a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
 						</div>
 					</div>
 					<div class="place__content">
@@ -90,8 +96,8 @@
 					<div class="place__conteiner">
 						<h2 class="place__title">Кольский</h2>
 						<div class="place__website">
-							<p class="place__url-heading">URL</p>
-							<a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+							<p class="place__url-heading">url</p>
+							<a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
 								class="place__link">National Geographic</a>
 						</div>
 					</div>
@@ -118,8 +124,8 @@
 					<div class="place__conteiner">
 						<h2 class="place__title">Алтай</h2>
 						<div class="place__website">
-							<p class="place__url-heading">URL</p>
-							<a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+							<p class="place__url-heading">url</p>
+							<a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank"
 								class="place__link">Facebook</a>
 						</div>
 					</div>
@@ -142,8 +148,9 @@
 					<div class="place__conteiner">
 						<h2 class="place__title">Зимний Байкал</h2>
 						<div class="place__website">
-							<p class="place__url-heading">URL</p>
-							<a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+							<p class="place__url-heading">url</p>
+							<a href="https://vk.com/baikalmile" target="_blank"
+								class="place__link">https://vk.com/baikalmile</a>
 						</div>
 					</div>
 					<div class="place__content">
@@ -163,8 +170,8 @@
 					<div class="place__conteiner">
 						<h2 class="place__title">Карелия</h2>
 						<div class="place__website">
-							<p class="place__url-heading">URL</p>
-							<a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+							<p class="place__url-heading">url</p>
+							<a href="http://vodlozero.ru" target="_blank" class="place__link">http://vodlozero.ru/</a>
 						</div>
 					</div>
 					<div class="place__content">
@@ -181,26 +188,30 @@
 					</div>
 				</div>
 			</section>
-
+			<!-- Начало блока cover-->
 			<section class="cover">
-				<div class="cover__backgraund">
-					<a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-						<h2 class="cover__title">До Байкала «на собаках»</h2>
-						<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от
-							столицы до Байкала на электричках.</p>
-					</a>
-				</div>
+				<a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+					<h2 class="cover__title">До Байкала «на собаках»</h2>
+					<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от
+						столицы до Байкала на электричках.</p>
+				</a>
 			</section>
 		</main>
+		<!-- Подвал сайта-->
 		<footer class="footer">
 			<nav class="footer-navigation">
 				<ul class="footer__links">
-					<li class="footer__line"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-					<li class="footer__line"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-					<li class="footer__line"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-					<li class="footer__line"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+					<li class="footer__line"><a class="footer__link" href="https://yandex.ru/maps"
+							target="_blank">Карты</a></li>
+					<li class="footer__line"><a class="footer__link" href="https://yandex.ru/pogoda"
+							target="_blank">Погода</a></li>
+					<li class="footer__line"><a class="footer__link" href="https://rasp.yandex.ru"
+							target="_blank">Расписание</a></li>
+					<li class="footer__line"><a class="footer__link" href="https://calendar.yandex.ru"
+							target="_blank">Календарь</a>
 					</li>
-					<li class="footer__line"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+					<li class="footer__line"><a class="footer__link" href="https://travel.yandex.ru"
+							target="_blank">Путешествия</a>
 					</li>
 				</ul>
 			</nav>
